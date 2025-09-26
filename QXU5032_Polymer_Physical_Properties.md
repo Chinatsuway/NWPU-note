@@ -61,8 +61,8 @@ $V=D[1-e^{-a(r-r_0)}]^2$
 
 ### Mathematical Result:
 - End to end vector: $\vec{R} = \Sigma_{i=1}^N \vec{l_i}$
-- Mean: $<\vec{R}>=0$
-- Mean Square: $<R^2>=Nl^2$
+- Mean: $\langle{} \vec{R} \rangle{}=0$
+- Mean Square: $\langle{} R^2 \rangle{}=Nl^2$
 - Distribution: Gaussian for large $N$
 
 ## Real Chains
@@ -73,11 +73,11 @@ $V=D[1-e^{-a(r-r_0)}]^2$
 
 ### Kuhn Length(b)
 The effective freely-jointed segment. Treat N-segment real chain as equivalent to N/b Kuhn segments FJC.  
-$b={{{<R^2>}_0}\over{L_{max}}}$
+$b={{{\langle{} R^2 \rangle{}}_0}\over{L_{max}}}$
 
 ### Persistence Length($l_p$)
 Persistence length is the maximum length that can be regarded as an elastic rod, and the minimum length that can be regarded as chain.  
-$<cos \theta(s)>=e^{-s/l_p}$  
+$\langle{} cos \theta(s) \rangle{}=e^{-s/l_p}$  
 $l_p=b/2$
 
 ## Classification
@@ -104,6 +104,12 @@ Stereoregularity or spatial arrangement of R(side group) units along chain.
 - **isotactic**: ALL R groups on same side of chain
 - **syndiotactic**: R groups alternate sides.
 - **atactic**: R groups randomly positioned.
+
+Also some abbreviations can describle tetrad sequences in polymer chains:
+- **mmm**: meso-meso-meso
+- **mmr**: meso-meso-racemo
+- ......
+- **rrr**:racemo-racemo-racemo
 
 ## Molar Mass
 Number Average Molar Mass $\bar{M_n}$:
@@ -148,7 +154,7 @@ $\eta = {{Material Recovered} \over{E_{total}}}$
 
 ### Degradation Thermodynamics
 **Bond Dissociation Energy(BDE)**:  
-$A-B -> A*+B*$........$\Delta H=BDE$
+$A-B \longrightarrow{} A*+B*$&emsp;&emsp;$\Delta H=BDE$
 
 ### Enzyme Exclusion
 Enzyme is large proteins, and need physical acess to bond. Can not penetrate dense regions.  
