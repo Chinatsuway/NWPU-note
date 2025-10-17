@@ -1,7 +1,8 @@
 # Section 1: Intro-Foundations
 ### Assessment
-Course Work: 20+20%  
-Examination: 60%
+Course Work(Group presentation on applications of polymers): 20%  
+Course Work(Group essay on polymer concepts and theories or families of polymers): 30%   
+Examination: 50%
 
 ## Structure
 ### Single Chains
@@ -163,3 +164,91 @@ Enzyme is large proteins, and need physical acess to bond. Can not penetrate den
 - **Size Exclusion**: crystall lamellae too tight
 - **Hydrophobic Exclusion**: water-based enzymes repelled
 - **Steric Blocking**: bulky side group
+
+# Section 3: Polymer Structure
+### Carbon Chain
+- saturated: sigma bond only
+- unsaturated: double and trible bond somewhere.
+
+### Molar Mass / Molecular Weight
+Many polymers have no a molecular weight number, it is a distribution
+
+### Chain Length
+|$(CH)_2$|State|
+|:-----:|--------|
+|$1-4$|gas|
+|$5-11$|liquid|
+|$12-15$|medium viscosity liquid|
+|$16-24$|highly viscosity liquid|
+|$25-50$|brittle solid|
+|$10^3 - 10^4$|plastic solid|
+|$> 10^5$|tough solid|
+
+### Molecular Weight Destribution
+$M_n$ and $M_w$ and $M_z$.  
+**Note**: $M_n \leq{} M_w \leq{} M_z$
+
+|Molar Mass|Properties|
+|----|----------|
+|$\bar{M_n}$|Strength and Toughness|
+|$\bar{M_w}$|Melt Viscosity|
+|$\bar{M_z}$|Melt Elasiticity|
+
+Polydispersity Index( **PDI** ):  
+$PDI = {{\bar{M_w}}\over{\bar{M_n}}}$
+
+**Note**: To measure $M_w$, MFI is suitable.
+
+### Catalysts for Chain Length Control
+Metallocene catalysts polymerize olefins at the metal active site and lead to about $1.1$ PDI.
+
+### Molecular Weight Distribution of PE
+MWD is mainly determined by the catalysts system.  
+|MWD|Catalysts|
+|----|--------------|
+|$2-3$|Single Site Catalysts|
+|$4-6$|Ziegier-Natta|
+|$8-20$|Chromium|
+
+In certain application, broad weight distribution can provide better balance properties,high MW part improve the mechanical properties and low MW provide flow properties and processability.
+
+### Die Swell
+It can be observed as an extrudate with a cross-section ($D_ex$) which is greater than the die cross-section ($D_o$).
+
+# Section 4: Thermal Transitions of Polymers
+The operating temperature of polymer is defined by transition temperature below:
+- Glass Transition Temperature
+- Melting Point
+- Crystallization
+- Secondary Transition
+
+## Glass Transition
+The glass transition($T_g$) is the temperature at which the amorphous domain take on characteristic glassy-state properties. And the temperature at which there is sufficient energy for rotation about bonds.
+
+**Note**. The $T_g$ is not a fixed point, it can depends on the time-scale over the monitored behaviour.
+
+### Heating through $T_g$ leads to:
+- Break down of van der Waals forces
+- Onset of large scale molecular motion
+- Polymer goes from glassy/rigid to rubbery behaviour
+- Upper service temperature in amorphous polymers
+
+### Kinetics of the Glass Transition
+From the very low temperature, the localized bond movement and side chain movement can occur, it is so called $T_\gamma{}$.
+
+Then, the whole side chain and localized group are active, and the material starts to develop some toughness, it's the $T_\beta{}$
+
+As the heating further continues, the $T_g$ is reached.
+
+### Free Volume
+The space in a solid or liquid sample that is nor occupied by polymer molecules,associated with the end of a polymer chain.
+
+The decrease of free volume will cause the shortage of space to movement of polymer chains, which is called Glass Transition.
+
+### Factors affecting $T_g$
+- **Chain Length**.
+- **Chemical Structure**. Higher flexibility will have a lower $T_g$.
+- **Pendant Group**. Longe side chain will limit the closely the chains can pack together, and cause lower $T_g$.
+- **Crosslinking**. Crosslinked polymers are tied together via covalent bonding, which is much stronger than van der Waals interactions.
+- **Molecular Weight**. High MW will increase the $T_g$. $T_g=T_{g,\infin{}} * K/M$, and $K$ is an empirical parameter.
+- **Plasticizers**. Reduce the cohesive forces and decrease the $T_g$. 
