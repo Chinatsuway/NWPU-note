@@ -353,8 +353,38 @@ Flexible polymers loss more entropy when adsorption, however, the decrease in $\
 - In both good and poor solvent, adsorption increases with MW.
 
 ### $\color{yellow}{\bigodot{}}$ Additional Points
-Adsorption energy depends on both the nature of the solvent and
-the surface, as well as competition between polymer and solvent
-for binding sites.
+Adsorption energy depends on both the nature of the solvent and the surface, as well as competition between polymer and solvent for binding sites.
 
 Polymer adsorption can be accompanied by a change in conformation compared to that seen in the bulk.
+
+## Electronic Interaction
+### $\color{green}{\bigodot{}}$ The Electric Double Layer
+
+The double layer model is used to visualize the ionic environment in the vicinity of a charged surface.
+
+Charges can occur due to the ionic group at the surface.
+
+Matter at the boundary of two phases has different properties with the matters in bulk phases separated by the interface.
+
+### $\color{green}{\bigodot{}}$ Helmholtz Double Layer
+
+The surface charge potential is linearly dissipated from the surface to the counterions satisfying the charge.
+
+### $\color{green}{\bigodot{}}$ Gouy-Chapman Double Layer
+
+The counter ions are not rigidly held in the surface, but tend to diffuse into the liquid until the counter potential set up by their departure restricts this tendency.
+
+The kinetic energy of the counter ions will affect the thickness of the resulting diffuse double layer.
+
+The electrostatic potential($\Psi$) and the volume charge density($\rho$) are related by **Poisson Equation**:
+
+${{d^2 \Psi}\over{d x^2}}={-\rho{}/(\epsilon_0 * \epsilon_r)}$
+
+The model has **assumption**:
+
+1. The surface charge is smeared.
+2. Ions are point charges.
+3. No specific ion adsorption.
+4. Dielectric constant is constant.
+
+(Not Finished)
