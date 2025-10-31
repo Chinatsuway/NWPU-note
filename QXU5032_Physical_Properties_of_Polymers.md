@@ -47,18 +47,30 @@ Different from **isotropic** un-oriented chains, the superfibres are **anisotrop
 ## Interatomic Lennard-Jones Potential
 
 The LJ potential describes non-bonded interactions:  
-${V_{LJ}(r)}=4 \epsilon [({{\sigma} \over r})^{12}-({{\sigma} \over r})^{6}]$
+
+$$
+{V_{LJ}(r)}=4 \epsilon [({{\sigma} \over r})^{12}-({{\sigma} \over r})^{6}]
+$$
 
 ## Bond Potentials
 
 Simple but limited **Harmonic**:  
-$V=k \over 2 (r-r_0)^2$
+
+$$
+V=k \over 2 (r-r_0)^2
+$$
 
 Prevents unphysical stretching **FENE**:  
-$V=-{{kR_0^2} \over 2} ln[1-({r \over R_0})^2]$
+
+$$
+V=-{{kR_0^2} \over 2} ln[1-({r \over R_0})^2]
+$$
 
 Accurate but expensive **Morse**:
-$V=D[1-e^{-a(r-r_0)}]^2$
+
+$$
+V=D[1-e^{-a(r-r_0)}]^2
+$$
 
 ### Physical Meaning of Derivatives
 
@@ -93,13 +105,21 @@ $V=D[1-e^{-a(r-r_0)}]^2$
 ### Kuhn Length(b)
 
 The effective freely-jointed segment. Treat N-segment real chain as equivalent to N/b Kuhn segments FJC.  
-$b={{{\langle{} R^2 \rangle{}}_0}\over{L_{max}}}$
+$$
+b={{{\langle{} R^2 \rangle{}}_0}\over{L_{max}}}
+$$
 
 ### Persistence Length($l_p$)
 
 Persistence length is the maximum length that can be regarded as an elastic rod, and the minimum length that can be regarded as chain.  
-$\langle{} cos \theta(s) \rangle{}=e^{-s/l_p}$  
-$l_p=b/2$
+
+$$
+\langle{} cos \theta(s) \rangle{}=e^{-s/l_p}
+$$  
+
+$$
+l_p=b/2
+$$
 
 ## Classification
 
@@ -138,22 +158,23 @@ Also some abbreviations can describle tetrad sequences in polymer chains:
 
 ## Molar Mass
 
-Number Average Molar Mass $\bar{M_n}$:
-$\bar{M_n}=\Sigma{} n_i M_i$  
+Number Average Molar Mass $\bar{M_n}$: $\bar{M_n}=\Sigma{} n_i M_i$  
 
-Weight Average Molar Mass $\bar{M_w}$:
-$\bar{M_w}=\Sigma{} w_i M_i=\Sigma{} n_i M_i^2$
+Weight Average Molar Mass $\bar{M_w}$: $\bar{M_w}=\Sigma{} w_i M_i=\Sigma{} n_i M_i^2$
 
-Z-Average Molar Mass $\bar{M_z}$:
-$\bar{M_z}=\Sigma{} z_i M_i=\Sigma{} n_i M_i^3$
-
+Z-Average Molar Mass $\bar{M_z}$: $\bar{M_z}=\Sigma{} z_i M_i=\Sigma{} n_i M_i^3$
 
 # Section 2: Degradation of Polymer
 
 ### Arrhenius Equation:   
 
-$k=A*exp({-{E_a \over {RT}}})$  
-${k_2 \over k_1} = exp(-{E_a \over R}({1 \over T_2}-{1 \over T_1}))$
+$$
+k=A*exp({-{E_a \over {RT}}})
+$$  
+
+$$
+{k_2 \over k_1} = exp(-{E_a \over R}({1 \over T_2}-{1 \over T_1}))
+$$
 
 ### The Factor of Hydrolysis Rate
 
@@ -168,29 +189,46 @@ ${k_2 \over k_1} = exp(-{E_a \over R}({1 \over T_2}-{1 \over T_1}))$
 #### **Mechanical Recycling**  
 
 Melt & Reshape  
-$E = \Delta H_{fusion} + \Delta E_{process}$  
+
+$$
+E = \Delta H_{fusion} + \Delta E_{process}
+$$  
+
 Low energy but quality loss
 
 #### **Chemical Recycling**  
 
 Pyrolysis is thermal decomposition of plastic waste, in absence of air, plastic broken out to monomer, not burn out.  
-$E = \Sigma BDE + E_{separation}$  
+
+$$
+E = \Sigma BDE + E_{separation}
+$$
+
 High energy but full recovery
 
 #### **Biodegradation**  
 
 Enzyme catalysis  
-$E=E_{activation}$  
+
+$$
+E=E_{activation}
+$$  
+
 Return to biosphere
 
 #### **Sustainablility Metric**  
 
-$\eta = {{Material Recovered} \over{E_{total}}}$
+$$
+\eta = {{Material Recovered} \over{E_{total}}}
+$$
 
 ### Degradation Thermodynamics
 
 **Bond Dissociation Energy(BDE)**:  
-$A-B \longrightarrow{} A*+B*$&emsp;&emsp;$\Delta H=BDE$
+
+$$
+A-B \rightarrow{} A*+B*\:\:\:\: \Delta H=BDE
+$$
 
 ### Enzyme Exclusion
 
@@ -228,7 +266,9 @@ Many polymers have no a molecular weight number, it is a distribution
 ### Molecular Weight Destribution
 
 $M_n$ and $M_w$ and $M_z$.  
-**Note**: $M_n \leq{} M_w \leq{} M_z$
+
+> [!NOTE]
+> $M_n \leq{} M_w \leq{} M_z$
 
 |Molar Mass|Properties|
 |----|----------|
@@ -237,9 +277,13 @@ $M_n$ and $M_w$ and $M_z$.
 |$\bar{M_z}$|Melt Elasiticity|
 
 Polydispersity Index( **PDI** ):  
-$PDI = {{\bar{M_w}}\over{\bar{M_n}}}$
 
-**Note**: To measure $M_w$, MFI(melting flow index) is suitable. If MFI decreases, the $M_w$ increases and TS(tensile strength) increases.
+$$
+PDI = {{\bar{M_w}}\over{\bar{M_n}}}
+$$
+
+> [!NOTE]
+> To measure $M_w$, MFI(melting flow index) is suitable. If MFI decreases, the $M_w$ increases and TS(tensile strength) increases.
 
 ### Catalysts for Chain Length Control
 
@@ -248,6 +292,7 @@ Metallocene catalysts polymerize olefins at the metal active site and lead to ab
 ### Molecular Weight Distribution of PE
 
 MWD is mainly determined by the catalysts system.  
+
 |MWD|Catalysts|
 |----|--------------|
 |$2-3$|Single Site Catalysts|
@@ -263,6 +308,7 @@ It can be observed as an extrudate with a cross-section ($D_ex$) which is greate
 # Section 4: Thermal Transitions of Polymers
 
 The operating temperature of polymer is defined by transition temperature below:
+
 - Glass Transition Temperature
 - Melting Point
 - Crystallization
@@ -272,7 +318,8 @@ The operating temperature of polymer is defined by transition temperature below:
 
 The glass transition($T_g$) is the temperature at which the amorphous domain take on characteristic glassy-state properties. And the temperature at which there is sufficient energy for rotation about bonds.
 
-**Note**. The $T_g$ is not a fixed point, it can depends on the time-scale over the monitored behaviour.
+> [!NOTE]
+> The $T_g$ is not a fixed point, it can depends on the time-scale over the monitored behaviour.
 
 ### Heating through $T_g$ leads to:
 
@@ -324,15 +371,21 @@ Both of them increase with chain stiffness increasing. And the chain stiffness a
 
 Melting is reverse of crystallization, the free energy $G$ stays constant, so:
 
-$G_l = G_c$
+$$
+G_l = G_c
+$$
 
-$T_m={\Delta{H}\over {\Delta{S}}}$
+$$
+T_m={\Delta{H}\over {\Delta{S}}}
+$$
 
 $\Delta{S}$ is controlled by the chain flexibility.
 
 And chain length also has slight influence:
 
-$1/T_m = a+{b\over M}$
+$$
+1/T_m = a+{b\over M}
+$$
 
 ### Empirical Relationship between $T_g-T_m$
 
@@ -395,11 +448,15 @@ If cooling rate < crystallization rate $\rightarrow{}$ semi-crystalline product
 
 For a blend system with two types of polymer, we have F-H equation:
 
-$\Delta G_m = RT\Big[ \epsilon_1 ln\epsilon_1 +\epsilon_2 ln\epsilon_2 + x_1 n_1 \epsilon_2 \Big]$
+$$
+\Delta G_m = RT\Big[ \epsilon_1 ln\epsilon_1 +\epsilon_2 ln\epsilon_2 + x_1 n_1 \epsilon_2 \Big]
+$$
 
 Thus,
 
-$\Delta G^{*}_m = RT\Big[ (\epsilon_1 / x_1)ln\epsilon_1 +(\epsilon_2 / x_2)ln\epsilon_2 + \chi\epsilon_1\epsilon_2 \Big]$
+$$
+\Delta G^{*}_m = RT\Big[ (\epsilon_1 / x_1)ln\epsilon_1 +(\epsilon_2 / x_2)ln\epsilon_2 + \chi\epsilon_1\epsilon_2 \Big]
+$$
 
 Where,
 
@@ -414,7 +471,9 @@ If the blends are completely immiscible then we have two $T_g$.
 
 For completely miscible polymers:
 
-$1/T^{Blend}_g = {w_1}/{T^1_g}\; w_2/{T^2_g}$
+$$
+1/T^{Blend}_g = {w_1}/{T^1_g}\; w_2/{T^2_g}
+$$
 
 ### Compatibilization of Polymer Blends.
 

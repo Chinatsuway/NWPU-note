@@ -62,12 +62,18 @@ IR can also generate heat, which has a similar result as heat.
 
 Generation of ozone in nature:
 
-$O_3 + hv \rightarrow{} 2O$  
-$O + O_2 \rightarrow{} O_3$
+$$
+O_3 + hv \rightarrow{} 2O
+$$  
+$$
+O + O_2 \rightarrow{} O_3
+$$
 
 and,
 
-$2O_3 \rightarrow{} 3O_2 \qquad \Delta{}H=-286.4\: kJ/mol$
+$$
+2O_3 \rightarrow{} 3O_2 \qquad \Delta{}H=-286.4\: kJ/mol
+$$
 
 ### Degradation by Water
 
@@ -75,13 +81,12 @@ Some of groups will be affected by water like ester bond.
 
 Water molecules can insert between oxygen atoms in polymer chains, and form hydrogen bond, make polymer chains has rubber-like physical properties.
 
-### Note in Examples
-
-- Amide bond is more stable than ester bond.
-- With large side group, the oxygen will be more difficult to attack the hydrogen atoms on the chain. (**Steric Hindrance Effect? Shield Effect?**).
-- $Đ=M_w/M_n$ show the dispersion of molecular weight.
-- The density of amorphous materials is lower than corresponding crystalline state.
-- Weather Ability: shows the ability of adaption different temperature.
+> [!NOTE]
+> - Amide bond is more stable than ester bond.
+> - With large side group, the oxygen will be more difficult to attack the hydrogen atoms on the chain. (**Steric Hindrance Effect? Shield Effect?**).
+> - $Đ=M_w/M_n$ show the dispersion of molecular weight.
+> - The density of amorphous materials is lower than corresponding crystalline state.
+> - Weather Ability: shows the ability of adaption different temperature.
 
 ### Example 1
 
@@ -146,7 +151,7 @@ Change the active end group to stablize the polymer, for example, $-CH_2O-CH_2OH
 
 ### **Blend**
 
-Unsaturated polymers is easy to oxidation, like nature rubber, blending with EPDM, which is more sensitive to ozone and react with ozone before the polymer.
+Unsaturated polymers is easy to oxidation, like nature rubber, blending with EPDM(Ethylene-Propylene-Diene Monomer), which is more sensitive to ozone and react with ozone before the polymer.
 
 # Degradations
 
@@ -285,11 +290,15 @@ Or, photochemistry process happen.
 
 If photo irradiation can break all backbone and all the bond energy of the back bone are the same:
 
-$\frac{d n_p}{dt} = \phi \cdot I_a$
+$$
+\frac{\text{d} n_p}{\text{d}t} = \phi \cdot I_a
+$$
 
 Degree of photo degradation:
 
-$p = \frac{M_r}{n \cdot N} \phi \cdot I_a \cdot t$
+$$
+p = \frac{M_r}{n \cdot N} \phi \cdot I_a \cdot t
+$$
 
 Where,
 
@@ -302,7 +311,9 @@ Where,
 
 If the number averaged degree of polymerization is $\bar{u_0}$. We have:
 
-$\frac{1}{\bar{u_p}} - \frac{1}{\bar{u_0}} = p$
+$$
+\frac{1}{\bar{u_p}} - \frac{1}{\bar{u_0}} = p
+$$
 
 ## Mechanism of Photo-Oxidation Degradation
 
@@ -310,29 +321,51 @@ $\frac{1}{\bar{u_p}} - \frac{1}{\bar{u_0}} = p$
 
 ### Initiation
 
-$RH \rightarrow{hv} RH^{*} \rightarrow R^* + H^*$
+$$
+RH \rightarrow{hv} RH^{*} \rightarrow R^* + H^*
+$$
 
-$R^*+O_2 \rightarrow ROO^*$
+$$
+R^*+O_2 \rightarrow ROO^*
+$$
 
 ### Propagation
 
-$ROO^*+RH\rightarrow ROOH+R^*$
+$$
+ROO^*+RH\rightarrow ROOH+R^*
+$$
 
-$ROOH\rightarrow R^*+^*OOH$
+$$
+ROOH\rightarrow R^*+^*OOH
+$$
 
-$ROOH\rightarrow RO^*+^*OH$
+$$
+ROOH\rightarrow RO^*+^*OH
+$$
 
-$RO^*+RH \rightarrow ROH+R^*$
+$$
+RO^*+RH \rightarrow ROH+R^*
+$$
 
-$HO^*+RH\rightarrow R^* + H_2O$
+$$
+HO^*+RH\rightarrow R^* + H_2O
+$$
 
 ### Termination
 
-$ROO^*+ROO^* \rightarrow ROOR+O_2\;$    High[$O_2$]
+High[$O_2$]  
+$$
+ROO^*+ROO^* \rightarrow ROOR+O_2\;
+$$
 
-$ROO^*+R\rightarrow ROOR\;$    Low[$O_2$]
+Low[$O_2$]
+$$
+ROO^*+R\rightarrow ROOR\;
+$$    
 
-$R^*+R^* \rightarrow R-R$
+$$
+R^*+R^* \rightarrow R-R
+$$
 
 ## Source of Photo-Oxidation Degradation
 
@@ -344,14 +377,31 @@ Metal ion is sensitizer for the photo-oxidation degradation of polylefin.
 
 $ROOH$ can be generated from thermal-oxidative degradation and the very beginning of photo-oxidative degradation. $ROOH$ absorption ca. $210\:nm$.
 
-$ROOH \rightarrow hv \rightarrow RO^* + ^*OH$
+$$
+ROOH \rightarrow hv \rightarrow RO^* + ^*OH
+$$
 
 ### Carbonyl Group(Norrish Reaction)
 
 **Norrish I Reaction:**
 
-$R-CO-R \rightarrow C-O + R^*$
+$$
+R-CO-R \rightarrow C-O + R^*
+$$
 
 **Norrish II Reaction($\alpha-\beta\:breakage$):**
 
-$R-CO-CH_2-CH_2-R \rightarrow RCOCH_3 + CH_2=CHR$
+$$
+R-CO-CH_2-CH_2-R \rightarrow RCOCH_3 + CH_2=CHR
+$$
+
+**Norrish III Reaction($\beta -H\:transfer$):**
+
+$$
+R-CO-CH(CH_3)-R \rightarrow R-COH+CH_2=CHR
+$$    
+
+### Singlet Oxygen($^1O_2$)
+
+## Ozone Degradation and Stabilization
+

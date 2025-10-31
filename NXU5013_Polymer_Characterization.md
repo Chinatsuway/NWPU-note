@@ -114,15 +114,21 @@ Light Source $\Rightarrow{}$ Monochromator $\Rightarrow{}$ Sample $\Rightarrow{}
 
 Using Hook's Law
 
-$v={1\over{2\pi{}}} \sqrt{k({1\over{m_1}}+{1\over{m_2}})}$
+$$
+v={1\over{2\pi{}}} \sqrt{k({1\over{m_1}}+{1\over{m_2}})}
+$$
 
 Wavenumber and Wavelength are interconvertible:
 
-$\sigma{}_{cm^{-1}}={1\over{\lambda{}_{\mu{}m}}}*10^4$
+$$
+\sigma{}_{cm^{-1}}={1\over{\lambda{}_{\mu{}m}}}*10^4
+$$
 
 Using the Wavenumber:
 
-$\sigma{} = {1\over{2\pi{}c}} \sqrt{k({1\over{m_1}}+{1\over{m_2}})}$
+$$
+\sigma{} = {1\over{2\pi{}c}} \sqrt{k({1\over{m_1}}+{1\over{m_2}})}
+$$
 
 where,
 
@@ -135,7 +141,9 @@ When the sample is irradiated with IR light, it will selectively absorb the band
 
 The depth at which the amplitude of the stationanry wave attenuates to $1/e$ of the original.
 
-$d={{\lambda{}}\over{2\pi{}n_1 \big[{}sin^2 i - (n_2 l n_1)^2} \big]{}^{1/2}}$
+$$
+d={{\lambda{}}\over{2\pi{}n_1 \big[{}sin^2 i - (n_2 l n_1)^2} \big]{}^{1/2}}
+$$
 
 ### Wavenumber of IR
 
@@ -266,7 +274,9 @@ Fragment at the benzylic carbon, forming  a stabilized benzylic carboncation(rea
 
 The degree of unsaturation: 
 
-$\Omega = 1+n_c+\frac{n_N-n_H}{2}$
+$$
+\Omega = 1+n_c+\frac{n_N-n_H}{2}
+$$
 
 ## High-Resonance Mass Spectra
 
@@ -286,13 +296,19 @@ Contain conjugated $\pi$ system, like benzene ring and attached function group, 
 
 TOF separate ions by time.
 
-$KE=\frac{mv^2}{2}=zV$
+$$
+KE=\frac{mv^2}{2}=zV
+$$
 
 And the time of ion to travel the length of the flight tube is:
 
-$T_f=\frac{L}{v}$
+$$
+T_f=\frac{L}{v}
+$$
 
-$T_f=L\sqrt{\frac{m}{z}}\sqrt{\frac{1}{2V}}\propto \cdots$
+$$
+T_f=L\sqrt{\frac{m}{z}}\sqrt{\frac{1}{2V}}\propto \cdots
+$$
 
 ### Advantages
 
@@ -327,7 +343,129 @@ And Gas Chromatography $\rightarrow$ gas mobile phase.
 
 A plot of detector response vs. elution time.
 
+- $t_r$. Retention time, the time between the sample's injection and the maximum response for the solute's speak.
+- $w$. The analyte baseline peak's width.
+- $t_m$. The void time, the time between injection and nonretained solute.
+
 ## Classification of Chromatography
 
 $\cdots$
 
+## Interaction
+
+### Distribution Constant($K$)
+
+An equilibrium constant that describes the ratio of the analyte concentrations in the stationary phase and the mobile phase.
+
+$$
+K=\frac{C_s}{C_m}
+$$
+
+The higher $K$, the slower a compound move through the chromatography system, and the easier the two species can be separated.
+
+### Retention Factor($k^{'}$)
+
+Commonly used to describe the migration rates of analytes in a mixture.
+
+$$
+k^{'}_A =\frac{ t_{r,A}-t_m}{t_m}
+$$
+
+The higher $k^{'}$ is, the more the analyte favors the stationary phase.
+
+### Slectivity Factor($\alpha$)
+
+Relative measure of the retention of two solutes.
+
+$$
+\alpha = \frac{k_B'}{k_A'} = \frac{t_{r,B}-t_m}{t_{r,A}-t_m}
+$$
+
+Where A is the smaller retention time. So $\alpha$ always not smaller than $1.00$.
+
+### Band Broadening
+
+The process at which the width of analyte' bond increased as it passes through the column.
+
+> [!NOTE]
+> **Column Efficiency**. Quantitative measure of the extent of band broadening in terms of the *Theoretical Plate Model*.
+
+### Asymmetric Peaks
+
+**Peak tailling**. Some sites can retain the solute more strongly
+
+**Peak Fronting**. Overloading the column with sample.
+
+**Asymmetric Factor $T$**.
+
+## van Deemter Equation
+
+The equation considers 3 factors along with the mobile phase linear velocity, $u$.
+
+$$
+H=A+\frac{B}{u}+Cu
+$$
+
+Where,
+
+- $A$. The contribution of Eddy diffusion phenomenon in the column ($H_P$).
+- $B/u$. The contribution of longitudinal diffusion($H_A$).
+- $Cu$. The resistance to mass transfer($H_s\: \&\: H_m$).
+
+### Eddy Diffusion Phenomenon, $H_P$
+
+$$
+H_P = 2 \lambda d_p
+$$
+
+Where,
+
+- $d_p$. The average diameter of the packing material.
+- $\lambda$. The consistency of packing.
+
+### Resistance to Mass Transfer, $H_s\: \&\: H_m$
+
+# Nuclear Magnetic Resonance Imaging
+
+NMR is the most powerful tool available for organic structure determination.
+
+## Principle
+
+### Magnetic Moment of nucleus
+
+$$
+\mu = \gamma P
+$$
+
+And $P$ is numerically expressed as follows:
+
+$$
+P = m \frac{h}{2\pi}
+$$
+
+Where,
+
+- $\gamma$. Angular momentum
+- $h$. Plank constant.
+- $m$. The corresponding stationary states or eigenstates of the nucleus.
+
+### Nuclear Spin
+
+A nucleus with an odd atomic number or mass number has a nuclear spin.
+
+The spinning charged nucleus generated a magnetic field.
+
+### $\Delta E$ and Magnet Strength
+
+$$
+hv = \Delta E = \gamma \frac{h}{2\pi} B_0
+$$
+
+v is the resonance frequency of the nucleus. $\gamma$, Gyromagnetic ratio, constant for each nucleus.
+
+## Requirements of NMR
+
+- A spinning nucleus must produce a magnetic moment.
+- The energy of a spinning nucleus can be sepaerated into different levels.
+- An radiofrequency field supplies energy for the energy transition of a spinning nucleus
+- Nuclei in the excited state return to ground state via relaxation.
