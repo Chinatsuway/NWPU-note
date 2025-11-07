@@ -63,7 +63,7 @@ IR can also generate heat, which has a similar result as heat.
 Generation of ozone in nature:
 
 $$
-O_3 + hv \rightarrow{} 2O
+O_3 + hv \rightarrow{} 3 O
 $$  
 $$
 O + O_2 \rightarrow{} O_3
@@ -403,5 +403,16 @@ $$
 
 ### Singlet Oxygen($^1O_2$)
 
-## Ozone Degradation and Stabilization
+## Characterization of Polymer Degradation
 
+### Melt Mass-Flow Rate(MFR)
+
+In centain time (10 min), the weight of polymer passing through a capillary (g/mol)
+
+### Yellowing Index(YI)
+
+$$
+YI= 100(1.28X-106Z)/Y
+$$
+
+## Polymer Degradation during Processing

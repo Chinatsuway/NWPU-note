@@ -461,7 +461,7 @@ $$
 hv = \Delta E = \gamma \frac{h}{2\pi} B_0
 $$
 
-v is the resonance frequency of the nucleus. $\gamma$, Gyromagnetic ratio, constant for each nucleus.
+$v$ is the resonance frequency of the nucleus. $\gamma$, Gyromagnetic ratio, constant for each nucleus.
 
 ## Requirements of NMR
 
@@ -469,3 +469,21 @@ v is the resonance frequency of the nucleus. $\gamma$, Gyromagnetic ratio, const
 - The energy of a spinning nucleus can be sepaerated into different levels.
 - An radiofrequency field supplies energy for the energy transition of a spinning nucleus
 - Nuclei in the excited state return to ground state via relaxation.
+
+## NMR Signals
+
+- The number of signals shows how many different kinds of protons are present.
+- The location of the signals shows how shielded the proton is.
+- The intensity of the signal shows the number of protons of that type.
+- Signal splitting shows the number of protons on adjacent atoms.
+
+# Microscopic Analysis
+
+## Length Scale of Structure in Polymer
+
+|Scale|Structure|
+|-----|---------|
+|$1-10\, nm$|Macromolecular coils, crystal nuclei, crystal domains|
+|$10\, nm-1\, \mu m$|Isolated domains, emulsions, pigments, microfibers|
+|$1-10\, \mu m$|Spherulites, sectional morphology, glass fibers|
+|$10\, \mu m - 1 mm$|Foam structures, textile structure, coating structure|

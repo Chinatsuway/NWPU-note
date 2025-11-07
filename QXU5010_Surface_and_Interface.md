@@ -4,7 +4,7 @@
 
 - Examination: $50\%$
 - Course Work/Labs: $30%$
-- In-Class Task: $20%$
+- In-Class Task(held in week 13): $20%$
 
 ## Class Traffic Light System
 
@@ -749,4 +749,172 @@ Temperature increased, usually emulsion stability decreased.
 
 Temperature affects; Interfacial tension, $D$, solubility of surfactant, Brownian motion, viscosity of liquids, phases of interfacial film.
 
-### $\color{green}{\bigodot{}}$ 
+# Chemical Modification of Surfaces
+
+## Physical Modification - Langmuir-Blodgett Films
+
+### $\color{green}{\bigodot{}}$ General Principles
+
+- The Langmuir-Blodgett (LB) approach results in the formation of a two-dimensional (2D) layer of amphiphilic molecules on the surface of a liquid (usually water).
+- This 2D layer can then be transferred to other substrates.
+- Additional layer can then be added and layered structures built up.
+
+> [!NOTE]
+>The technique relies on self-assembly driven by electrostatics and the hydrophobic effect.
+
+### $\color{yellow}{\bigodot{}}$ LB Film Formation
+
+1. An amphiphilic species, dissolved in a volatile organic solvent, is spread onto an aqueous surface.
+2. Organic solvent evaporate, the amphiphilic molecules start to reorganise.
+3. Barriers are used to compress the film until the surce-bound molecules are closely-packed.(tracked by monitoring the surface pressure ($mN/m$))
+
+The change in molecule density are separated into phases (G/L1/L2/S $\rightarrow$ Gas/Liquid/Solid)
+
+> [!NOTE]
+> **LB Isotherm: Surface Pressure($\pi$) $vs.$ Molecular Area($A$)** 
+> 
+> - $A_0$ provide the planar area occupied by a molecule in the solid phase.
+> - $\pi_c$ is the maximum surface pressure.
+> - $\pi_d$ is typical deposition pressure, offer a densely packed film with enough flexibility for deposition.
+
+### $\color{yellow}{\bigodot{}}$ Wihelmy Plate
+
+The plate is suspended above the liquids surface, and the force of suspension is monitored.
+
+$$
+\text{Force} = \rho glwt \text{(weight)} -\rho'glwt \text{(upthrust)} + 2\gamma(t+w)\cos{\theta} \text{(surface tension)}
+$$
+
+### $\color{yellow}{\bigodot{}}$ LB Monolayer Transfer
+
+- Deposition can take place either horizontally or vertically.
+- Vertical depositions can also occur on the upstroke or downstroke of a substrate.
+- The direction that transfer occurs depends on the hydrophobicity of the substrate, as this directs the shape of the interface.
+
+### $\color{yellow}{\bigodot{}}$ Multilayer Deposition
+
+**Y Deposition**. Up+down stroke, and tail-tail, head-head.
+
+## Polyelectrolyte Assembly
+
+### $\color{green}{\bigodot{}}$ Definitions
+
+Polyelectrolyte is a polymer system consisting of a macromolecule carring covalently bound ionic group and low-molecular weight counter ions ensuring electroneutrality.
+
+> [!NOTE]
+> Ionic sites provide water solubility.
+>
+> Typical PE behavior: >1 charged group per 10 monomers.
+
+### $\color{green}{\bigodot{}}$ Polyelectrolytes in Solution 
+
+Polyelectrolytes dissociate in aq. solution to provide charged chain and counterions.
+
+The chain tells the ions where to move,  
+and the ions tell the chain how to curve.
+
+## Self-Assembled Monolayers
+
+### $\color{yellow}{\bigodot{}}$ General Points
+
+SAMs are adsorbed monolayer coating formed between a solid substrate an organic molecule.
+
+SAMs can form via **Physisorption** and **Chemisorption**(more common).
+
+### $\color{yellow}{\bigodot{}}$ Chemically Adsorbed SAMs
+
+Increasing the density of water repelling surface groups increases water contact angle (WCA)
+
+> [!NOTE]
+> Surface functionalisation (via chemisorption) requires a reorganisation of the surface chemistry.
+
+> [!IMPORTANT]
+> ### Au-S-R
+>
+> R-S-H form spontaneously on Au on immersion of Au substrate in alkanethiol solution.
+>
+> Large variety of functional groups can be introduced by this procedure.
+
+## Lithography
+
+### $\color{green}{\bigodot{}}$ General Process
+
+Lithography use light or electron to pattern surface.
+
+The light/electron react with the surface area without mask to protect.
+
+This process can be used for target deposition or etching.
+
+
+
+# Solid Surface
+
+## Structure-Function Relationship
+
+### $\color{yellow}{\bigodot{}}$ General Principles
+
+- The structure of a material determines its properties.
+- The properties affect the surface of the material.
+- What fuctions will the material has.
+
+### $\color{yellow}{\bigodot{}}$ Engineering Functionality
+
+1. Starting Material
+2. Processing
+3. Structure
+4. Properties
+5. Performance
+6. \[?\] Starting Material
+
+### $\color{green}{\bigodot{}}$ Physical Vapour Deposition - Thermal Actication
+
+- Heat is used to vaporise source material.
+- Vaporised material deposited on substrate.
+- PVD involves no chemical reaction.
+- Process encased in vacuum chamber: Ensure inert environment. Raises vapour pressure of source.
+
+### $\color{green}{\bigodot{}}$ Physical Vapour Deposition - Electron Beam Actication
+
+- Source material are heated using e-beam.
+- e-beam heats sample control of deposition rate, and higher heating efficiency.
+- Carried out at reduced pressure.
+
+### $\color{green}{\bigodot{}}$ Physical Vapour Deposition - Sputtering
+
+- No source heating.
+- Within vacuum chamber.
+- Electron plasma generates Ar+ ions.
+- Ar+ ions driven into 'target' source via an applied potential
+
+### $\color{yellow}{\bigodot{}}$ Physical Vapour Deposition - Summary
+
+- The deposition rate of the coating material can be controlled by tunning activation method.
+- The more intense this activation, the more material is in the gas phase.
+- The thickness of the coating is controlled by rate and duration.
+- The source materials structure is tends to be reserved.
+
+### $\color{green}{\bigodot{}}$ Atomic Layer Deposition 
+
+### $\color{yellow}{\bigodot{}}$ Chemical Vapour Deposition - Deposition Machanism
+
+# Liquid-Fluid Interfaces
+
+> [!NOTE]
+> **Surface Tension and Interfacial Tension**. Interfacial Tension can use to describe liquid-gas and liquid-liquid interfaces, but surface tension is generally to describe and only describe liquid-gas interfacial.
+
+## Miscibility
+
+### $\color{green}{\bigodot{}}$ General Principals
+
+**Miscible** means substances can dissolve in one another and form a uniform solution.
+
+The important factor of miscibility is intermolecular attraction type. Because different intermolecular attraction type will cause a net loss of energy if they are mixed.
+
+### $\color{green}{\bigodot{}}$ One or Two Phases
+
+The miscibility are also determined by
+
+- Ralative radio of two liquids, $x_R=1$ need highest temperature $T_c$.
+- Temperature, high $T$ will be helpful. 
+
+### $\color{green}{\bigodot{}}$ Interfacial Tension
