@@ -1,0 +1,38 @@
+% ------------------------
+% mynote_env.sty
+% ------------------------
+% Ported from rho-class/rhoenvs.sty
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{NoteThesis/mynote_env}[2026/03/02]
+% ------------------------
+% Required Packages
+
+\RequirePackage{xcolor}
+\RequirePackage{mdframed}
+% ------------------------
+% Colors
+
+\definecolor{mynote_color}{RGB}{0, 51, 102}
+% ------------------------
+% Note Environment
+
+\newmdenv[
+    backgroundcolor=mynote_color!22, 
+    linecolor=mynote_color!22,
+    linewidth=0.7pt,
+    frametitle=\vskip0pt\bfseries,
+    frametitlerule=false,
+    frametitlefont=\color{mynote_color}\bfseries\sffamily,
+    frametitlealignment=\raggedright,
+    innertopmargin=3pt,
+    innerbottommargin=6pt,
+    innerleftmargin=6pt,
+    innerrightmargin=6pt,
+    font=\selectfont,
+    fontcolor=mynote_color,
+    frametitleaboveskip=8pt,
+    skipabove=10pt
+]{mynote_env}
+
+\endinput
