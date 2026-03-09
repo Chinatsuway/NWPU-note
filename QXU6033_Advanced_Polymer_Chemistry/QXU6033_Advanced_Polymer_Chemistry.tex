@@ -1,5 +1,7 @@
 \documentclass{NoteThesis/note-thesis}
 
+\usepackage{mhchem}
+
 \course{Advanced Polymer Chemistry}
 
 \coursetitle{QXU6033 Advanced Polymer Chemistry}
@@ -66,5 +68,72 @@ Microphase separation and self-assembly
     \textbf{Q:} A has a structure that enables it to polymerise through chain-growth polymerisation, while B is step-growth.\\ Scenario 1: Imagine you start polymerising A, and half-way through the polymerisation, you add C, also another monomer, which can polymerise through chain-growth polymerisation, and, that can polymerise together well with A (this is called “copolymerise”). Separately, imagine Scenario 2: Use B instead A, then add D, a monomer, which can polymerise through step-growth polymerisation, and, that can copolymerise well with B. At the end of both polymerisation processes, what type of polymer samples will you have in each Scenario?\\
     \textbf{A:} S1: AAAAA-(random A and C)-(if one is finish, pure another one).\\ S2:(block B)-some D-(block B) and cycle B.
 \end{mynote_env}
+
+\section{Controlled Radical Polymerisation: Introduction}
+
+\begin{mynote_env}[frametitle=Note]
+    CRP, controlled / living radical polymerisation. \\Also Reversible Deactivation Radical Polymerisation, RDRP.
+\end{mynote_env}
+
+\subsection{Towards Living Polymerisation}
+
+As long as “living” polymer is kept tightly closed (no \ce{H2O}, \ce{ROH}, \ce{CO2}, \ce{O2}) more monomer can be added and the molecular weight will increase.
+
+\begin{enumerate}
+    \item MW increases steadily with time/conversion
+    \item Narrow PDI($<1.2$ or $1.3$)
+    \item Can add more monomer or another monomer/blocks.
+\end{enumerate}
+
+\subsubsection*{Kinetic Issue}
+
+To make FRP "living", need to inhibit termination and chain-transfer without affecting initiation/propagation too much.
+
+\subsubsection*{Strategy 1: Reversible Termination}
+
+Also, Reversible Deactivation.
+
+$$
+\sim P_n \cdot + X \cdot \ce{<=>[k_d][k_a]} \sim P_n -X \qquad (\text{"Dormant(sleep) FR"})
+$$
+
+\textbf{Note:} Do not use Strategy 1, either refer to specific chemistry (NMP, or TEMPO) or "reversible deactivation"
+
+\subsubsection*{Strategy 2: Catalytic/Assisted Reversible Termination}
+
+$$
+\sim P_n \cdot + X-Y \cdot \ce{<=>[k_d][k_a]} \sim P_n -X +Y\qquad (\text{"Dormant(sleep) FR"})
+$$
+
+X can be single atom transferred to $P\cdot$, Y normally a transition metal.
+
+\subsubsection*{Reversible Chain-Transfer(Degenerative Transfer)}
+
+$$
+\sim P_n \cdot + \sim P_m-X \ce{<=>[k_d][k_a]} \sim P_n-X + \sim P_m \cdot
+$$
+
+In processes $\sim P_n \cdot$ or $\sim P_m \cdot$ themselves, \textbf{Termination still occurs}.
+
+\begin{mynote_env}[frametitle=To be effective]
+    Reversible Termination should be $k_d > k_a$\\
+    Reversible Chain-Transfer is $k_d \sim  k_a$
+\end{mynote_env}
+
+\newpage
+\subsection*{Controlled Radical Polymerisation by Reversible Deactivation}
+
+Specific chemistries:
+
+Nitroxyl radicals (e.g. TEMPO) for Nitroxyl Mediated Polymerisation (NMP)
+
+\fastfigure{TEMPO.png}
+
+TEMPO: (2,2,6,6-Tetramethylpiperidin-1-yl)oxyl radical
+
+\begin{mynote_env}[frametitle=Note]
+    The equilibrium with TEMPO doesn't happen necessarily at every single monomer addition.
+\end{mynote_env}
+
 
 \end{document}

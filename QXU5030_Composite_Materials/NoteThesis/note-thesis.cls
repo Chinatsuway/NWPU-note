@@ -70,7 +70,17 @@
 
 \RequirePackage{graphicx}
 \RequirePackage{here}
-\graphicspath{{Figures/}{./}} 
+\graphicspath{{Figures/}{./}}
+
+% Fast figure command
+% Usage: \fastfigure{FigureName}
+% Equivalent to: \begin{figure}\centering\includegraphics[width=.6\textwidth]{FigureName}\end{figure}
+\newcommand{\fastfigure}[1]{%
+    \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=.6\textwidth]{#1}
+    \end{figure}
+} 
 % ------------------------
 % Items
 
