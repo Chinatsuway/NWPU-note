@@ -1,5 +1,9 @@
 \documentclass{NoteThesis/note-thesis}
 
+\usepackage[version=4]{mhchem}
+\usepackage{chemfig}
+\setchemfig{atom sep=2em}
+
 \course{Composite Materials}
 
 \coursetitle{QXU5030 Composite Materials}
@@ -344,5 +348,211 @@ One or more layers of long fibres held in place by PET stitching thread.
 Fibres interlaced in spiral nature to form tubular fabric. Diameter controlled by number of fibres, spiral angle (25$^\circ$ to 75$^\circ$), intersections per unit length, and fibre size.
 
 Used for masts, antennae, drive shafts and other tubular structures requiring torsional strength.
+
+\section{Processing of Polymer Matrix Composites}
+
+\fastfigure{Designandfabirc.png}
+
+\subsection{Thermalset Resins}
+
+Unsaturated polyester (UP), vinyl ester (VE), epoxy (EP), polyurethane (PUR).
+
+\begin{enumerate}
+    \item Generally supplied as liquid
+    \item Cross-linked (cured) by chemicals and heat
+    \item Heat reduces the instantanious viscosity
+    \item Heat increases the rate of cure
+    \item Cure increases the viscosity over time
+    \item Product is a 3D molecular network, whereas thermoplastic is usually a 1D chain
+\end{enumerate}
+
+\fastfigure{Temperature_vs_Viscosity.png}
+
+\subsubsection*{Polyester Resin}
+
+In polyester chain, the addition styrene can:
+
+\begin{enumerate}
+    \item Easy to handle by reducing its viscosity.
+    \item Crosslinking the chain, cure the resin from liquid to solid.
+\end{enumerate}
+
+Polyester resin has limited storage life because it will "gel". For use in moulding, a polyester resin requires the addition of catalyst, accelerators or inhibitors.
+
+\subsubsection*{Vinylester Resin}
+
+Vinylester resin is similar in structure to polyester, but the reactive sites only positioned at end of chains, the whole chain can deform, so this make vinylester \textbf{more ductile}.
+
+The vinylester has fewer ester group, means that vinylesters exhibit \textbf{better resistance to water} and many other chemicals than their polyester counterparts.
+
+Idealised chemical structure of a typical vinylester:
+
+\vspace{1em}
+\ce{{\chemfig{C=C-C(=[2]O)-[@{left,.5} ::0]C-C(-[2]OH)-C-O-Ph-C(-[2]C)(-[6]C)-Ph-O-[@{right,.5} ::0]C-C(-[2]OH)-C-O-C(=[2]O)-C=C} \polymerdelim[delimiters = {[]}, height=7pt, h align=false]{left}{right}}}
+
+\subsection{Processing of Thermalset Composites}
+
+\subsection{Thermoplastic Resins}
+
+\subsection{Processing of Thermoplastic Composites}
+
+\section{Labs}
+
+\subsubsection*{Breakdown}
+
+\begin{enumerate}
+    \item Coursework = $40\%$ of the Module
+    \item Lab 1: Wax Composites = $50\%$ of Coursework.
+    \item Lab 2: Composite Layup = $50\%$ of Coursework.
+\end{enumerate}
+
+\subsection{Wax Composites}
+
+Create composites using wax and fiber, choose fiber type, orientation and combination.
+
+Testing the sample by \textbf{Bend, Impact, Toughness}.
+
+\subsection{Composite Layup for Aircraft Panels}
+
+Build composite panel for $25kg$ overhead stowage bin, using epoxy + fiberglass with manual hand layup.
+
+Testing the sample by bending setup and calculate stiffness(EI, by bending angle).
+
+$$
+\theta = PL^2/16EI
+$$
+
+$$
+EI = PL^2/16\theta
+$$
+
+$$
+I=(1/12)\times b \times h^3
+$$
+
+\section{Processing of Metal and Ceramic Matrix Composites}
+
+The matrix material largely determines the processing method.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|c}
+        \hline
+        Composites Matrix & Upper operation temperature\\
+        \hline
+        polymer & $300^\circ \text{C}$\\
+        metal(A) & $600^\circ \text{C}$\\
+        ceramic & $>1000^\circ \text{C}$\\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Metal Matrix Composites}
+
+
+\subsection{Ceramic Matrix Composites}
+
+Ceramic matrix1 composite has 2nd high service temperature only lower than Alumina/Mullite-based refractories.
+
+The interaction between matrix and reinforcing fibres provide higher toughness, the mechanism is \textbf{cracks deflection at the matrix-fibre interface}.
+
+\subsection{Carbon-Carbon Composites}
+
+The carbon-carbon composite fabrication by liquid or gas phase infilltration.
+
+\section{Interface}
+
+The properties change gradually, so we should not talk about an interface, but an \textbf{interface region or interphase}.
+
+The weaker interface can absorb energy through pull-out and debonding, so stronger interface composite will be more brittle.
+
+\subsection{Fibre Wetting}
+
+\subsection{Interfacial}
+
+\section{Unidirectional Laminate Stiffness}
+
+\textbf{Microstructure Equation}: \\ \quad $\left[ \text{High stiffness, strength} \right]$ fibre + $\left[ \text{Good shear strength and low density} \right]$ matrix \\ \qquad = \textbf{High performance composite}.
+
+\subsection{Fibre Contrent and Packing}
+
+\subsubsection*{Purpose of Matrix}
+
+The matrix serves to separate the fibers, prevent cracking and friction between brittle fibers and transfer loads between them.
+
+\subsubsection*{Definition of Composite Microstructure}
+
+A material made from two or more constituent materials with significantly different physical or chemical properties that, when combined, produce a material with characteristics different from the individual components.
+
+\subsubsection*{Multi-Level Mechanics of Composites}
+
+\begin{equation*}
+    E^* = f(E_f,E_m,V_f,S,A)
+\end{equation*}
+
+Where,(should be check, because it is auto-completed by AI)
+\begin{itemize}
+    \item $E^*$ is the effective stiffness of the composite
+    \item $E_f$ is the stiffness of the fiber
+    \item $E_m$ is the stiffness of the matrix
+    \item $V_f$ is the volume fraction of the fiber
+    \item $S$ is the fiber orientation and distribution
+    \item $A$ is the interfacial adhesion between fiber and matrix
+\end{itemize}
+
+The density of the composite can be calculated by:
+\begin{equation*}
+    \rho_c = \varphi_f \rho_f + \varphi_m \rho_m
+\end{equation*}
+
+Where,
+\begin{itemize}
+    \item $\rho_c$ is the density of the composite
+    \item $\varphi_f$ is the volume fraction of the fiber
+    \item $\rho_f$ is the density of the fiber
+    \item $\varphi_m$ is the volume fraction of the matrix
+    \item $\rho_m$ is the density of the matrix
+\end{itemize}
+
+\subsection{Rules of Mixtures}
+
+\textbf{Assumption}: Fibres are uniform, parallel, and perfectly bonded to the matrix. Longitudinal load produces.
+
+\subsubsection*{Axial Stiffness}
+
+Deformed in the axial or fibre direction, the fibre and matrix are in parallel, so they experience the same strain:
+
+\begin{equation*}
+    e_{1f} = e_{1m} = e_1
+\end{equation*}
+
+Inverse rule of mixtures for axial stiffness:
+\begin{equation*}
+    \frac{1}{E_c} = \frac{V_f}{E_f} + \frac{V_m}{E_m}
+\end{equation*}
+
+\subsection{Halpin-Tsai set of Equations for Transverse}
+
+This semi-empirical model takes into account the non-uniform stress distribution in the transverse direction and provides prediction of the composite's transverse properties.
+
+\begin{equation*}
+    E_2 = \frac{E_m(1-\xi \varphi_f)}{1-\mu \varphi_f}
+\end{equation*}
+
+\begin{equation*}
+    G_{12} = \frac{G_m (1+\xi \mu V_f)}{1-\mu V_f}
+\end{equation*}
+
+\subsection{Poisson's Ratio}
+
+Most material will be thinner in the transverse direction when stretched in the axial direction, so the Poisson's ratio is defined as:
+
+\begin{equation*}
+    v = - \frac{\text{transverse strain}}{\text{axial strain}} = - \frac{e_2}{e_1}
+\end{equation*}
+
+\begin{equation*}
+    v_{i,j} = \frac{e_j}{e_i}
+\end{equation*}
 
 \end{document}
