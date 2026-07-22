@@ -17,8 +17,27 @@
 \RequirePackage{lastpage}
 \RequirePackage{geometry}  
 \RequirePackage{shellesc}
-\RequirePackage{newtxtext}
-\RequirePackage{newtxmath}
+\RequirePackage{iftex}
+\ifXeTeX
+    \RequirePackage{fontspec}
+    \setmainfont{TeX Gyre Termes}
+    \setsansfont{TeX Gyre Heros}
+    \setmonofont{TeX Gyre Cursor}
+    \RequirePackage{unicode-math}
+    \setmathfont{TeX Gyre Termes Math}
+\else
+    \ifLuaTeX
+        \RequirePackage{fontspec}
+        \setmainfont{TeX Gyre Termes}
+        \setsansfont{TeX Gyre Heros}
+        \setmonofont{TeX Gyre Cursor}
+        \RequirePackage{unicode-math}
+        \setmathfont{TeX Gyre Termes Math}
+    \else
+        \RequirePackage{newtxtext}
+        \RequirePackage{newtxmath}
+    \fi
+\fi
 \RequirePackage{xcolor}
 \RequirePackage{mdframed}
 \RequirePackage{multirow}
@@ -76,7 +95,7 @@
 % Usage: \fastfigure{FigureName}
 % Equivalent to: \begin{figure}\centering\includegraphics[width=.6\textwidth]{FigureName}\end{figure}
 \newcommand{\fastfigure}[1]{%
-    \begin{figure}[h!]
+    \begin{figure}[htbp]
         \centering
         \includegraphics[width=.6\textwidth]{#1}
     \end{figure}
@@ -135,7 +154,7 @@
 }
 
 \renewcommand{\tableofcontents}{%
-    \setcounter{tocdepth}{2}%
+    \setcounter{tocdepth}{3}%
     \section*{\contentsname}%
     \begin{multicols}{2}%
     \@starttoc{toc}%
